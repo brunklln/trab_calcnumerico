@@ -31,7 +31,7 @@ def simpson_um_terco(a, b, f):
 
 limite = [(0.5, 1), (1.2, 1.5), (3, 3.6), (1.2, 1.4), (1.2, 1.6)]
 funcao = [f_a, f_b, f_c, f_d, f_e]
-n_pts = 100
+n_pts = 1000
 
 for i in range(5):
     a, b = limite[i]
